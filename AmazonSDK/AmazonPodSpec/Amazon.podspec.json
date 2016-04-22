@@ -9,7 +9,7 @@
 "ios": "7.0"
 },
 "source": {
-"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADM/AmazonSDK/AmazonSDKPod/AmazonSDKPod.zip"
+"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/AmazonSDK/AmazonSDKPod/AmazonSDKPod.zip"
 },
 "public_header_files": "AmazonAd.framework/**/*.h",
 "frameworks": [

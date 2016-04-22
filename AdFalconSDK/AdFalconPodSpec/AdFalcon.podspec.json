@@ -9,7 +9,7 @@
 "ios": "7.0"
 },
 "source": {
-"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADM/AdFalconSDK/AdFalconSDKPod/AdFalconSDKPod.zip"
+"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/AdFalconSDK/AdFalconSDKPod/AdFalconSDKPod.zip"
 },
 "frameworks": [
 "Foundation",
