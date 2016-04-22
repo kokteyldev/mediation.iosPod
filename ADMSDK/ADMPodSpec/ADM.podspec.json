@@ -10,7 +10,7 @@
 "ios": "7.0"
 },
 "source": {
-"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADM"
+"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADMSDK/ADMSDKPod/ADMSDKPod.zip"
 },
 "frameworks": [
 "Foundation",
