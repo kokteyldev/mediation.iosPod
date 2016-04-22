@@ -1,0 +1,23 @@
+{
+"name": "AdFalcon",
+"version": "3.1.0",
+"summary": "AdFalcon Framework",
+"description": "AdFalcon iOS Framework Ads",
+"homepage": "http://www.adfalcon.com/en/download-sdk.html",
+"authors": "Bora Mete",
+"platforms": {
+"ios": "7.0"
+},
+"source": {
+"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADM/AdFalconSDK/AdFalconSDKPod/AdFalconSDKPod.zip"
+},
+"frameworks": [
+"Foundation",
+"UIKit"
+],
+"ios": {
+"vendored_libraries": "libAdFalconSDK3.1.0.a",
+"source_files": "headers/*.h",
+"preserve_paths": "libAdFalconSDK3.1.0.a",
+"requires_arc": true
+}

@@ -1,0 +1,31 @@
+{
+"name": "ADM",
+"version": "1.0.0",
+"summary": "ADMStatic Library",
+"description": "ADMStatic is for mediating ads from different ad networks ",
+"homepage": "http://www.admost.com",
+"authors": "Bora Met",
+"license": "MIT",
+"platforms": {
+"ios": "7.0"
+},
+"source": {
+"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADM"
+},
+"frameworks": [
+"Foundation",
+"UIKit"
+],
+"ios": {
+"vendored_libraries": "libADMStaticLib.a",
+"source_files": "headers/*.h",
+"resources": [
+"ADMNativeViews/*.xib",
+"ADMNativeInterstitialViews/*.xib",
+"ADMGenericViews/*.xib",
+"ADMAdHandling.xcassets"
+]
+},
+"preserve_paths": "libADMStaticLib.a",
+"requires_arc": true
+}

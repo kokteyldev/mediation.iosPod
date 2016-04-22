@@ -1,0 +1,30 @@
+{
+"name": "Amazon",
+"version": "2.2.13",
+"summary": "Amazon Framework",
+"description": "Amazon iOS Framework Ads",
+"homepage": "https://developer.amazon.com/public/resources/development-tools/sdk",
+"authors": "Bora Mete",
+"platforms": {
+"ios": "7.0"
+},
+"source": {
+"http": "https://github.com/kokteyldev/mediation.iosPod/raw/master/ADM/AmazonSDK/AmazonSDKPod/AmazonSDKPod.zip"
+},
+"public_header_files": "AmazonAd.framework/**/*.h",
+"frameworks": [
+"AdSupport",
+"CoreLocation",
+"SystemConfiguration",
+"CoreTelephony",
+"MediaPlayer",
+"EventKit",
+"EventKitUI",
+"StoreKit"
+],
+"ios": {
+"vendored_frameworks": "AmazonAd.framework"
+},
+"preserve_paths": "AmazonAd.framework",
+"requires_arc": true
+}
